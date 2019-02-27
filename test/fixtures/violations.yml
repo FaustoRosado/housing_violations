@@ -1,0 +1,31 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  boro_id: 1
+  violation_id: 1
+  building_id: 1
+  house_number: MyString
+  street_name: MyString
+  apt_number: MyString
+  zip_code: MyString
+  approval_date: 2019-02-26
+  current_status_date: 2019-02-26
+  current_status: MyString
+  boro: MyString
+  description: MyText
+  keyword: MyString
+
+two:
+  boro_id: 1
+  violation_id: 1
+  building_id: 1
+  house_number: MyString
+  street_name: MyString
+  apt_number: MyString
+  zip_code: MyString
+  approval_date: 2019-02-26
+  current_status_date: 2019-02-26
+  current_status: MyString
+  boro: MyString
+  description: MyText
+  keyword: MyString

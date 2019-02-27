@@ -1,4 +1,2 @@
-class Violation < ActiveRecord::Base
-
-
+class Violation < ApplicationRecord
 end
