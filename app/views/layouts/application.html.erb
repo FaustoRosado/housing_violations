@@ -4,12 +4,16 @@
     <title>HousingViolations</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
-
+    <%= include_gon %>
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+  
   </head>
-
   <body>
+    
     <%= yield %>
+  
+  
   </body>
 </html>
