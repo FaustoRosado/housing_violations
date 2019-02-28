@@ -11,7 +11,12 @@ client = SODA::Client.new({:domain => "data.cityofnewyork.us", :app_token => ENV
 # records = []
 response = client.get("wvxf-dwi5", {:boroid => 1})
 
-records = response.body
+response.body.each |something|
+  if (something["streename"]= "WEST 177 STREET")
+  
+  end
+
+end
 
 # records.each do |record|
 #   record.each do |r|
