@@ -2,6 +2,8 @@ class ViolationsController < ApplicationController
 
   def index
 
+    @violations = Violation.find_by(:keyword)
+
     plaster_count = Violation.where("keyword = ?", "Plaster/Paint").count
     mold_count = Violation.where("keyword = ?", "Mold").count
     fire_hazard_count = Violation.where("keyword = ?", "Fire Hazard").count
